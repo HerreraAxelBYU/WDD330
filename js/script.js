@@ -31,7 +31,7 @@ function createLi(datos) {
 
     // G I V I N G  V A L U E
     h2.textContent = datos.title;
-    image.src = 'https://herreraaxelbyu.github.io/assets/icons8-flecha-32.png'
+    image.src = '/assets/icons8-flecha-32.png'
 
     if (datos.url === "") {
         a.classList.add('none_link')
